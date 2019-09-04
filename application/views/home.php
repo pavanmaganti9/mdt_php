@@ -743,27 +743,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-row">
-                  <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+			  <?php echo $this->session->flashdata('msg'); ?>
+              <!--<form action="" method="post" role="form" class="contactForm">-->
+			  <?php $attributes = array("class" => "form-horizontal", "name" => "contactform");
+            echo form_open("contactform", $attributes);?>
+                
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" value="<?php echo set_value('name'); ?>"/>
                     <div class="validation"></div>
+					<span class="text-danger"><?php echo form_error('name'); ?></span>
                   </div>
-                  <div class="form-group col-lg-6">
+                  <div class="form-group">
                     <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                     <div class="validation"></div>
+					<span class="text-danger"><?php echo form_error('email'); ?></span>
                   </div>
-                </div>
+                
                 <div class="form-group">
                   <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                   <div class="validation"></div>
+				  <span class="text-danger"><?php echo form_error('subject'); ?></span>
                 </div>
                 <div class="form-group">
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
+				  <span class="text-danger"><?php echo form_error('message'); ?></span>
                 </div>
                 <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
-              </form>
+              <!--</form>-->
+			  <?php echo form_close(); ?>
+            
             </div>
           </div>
 
