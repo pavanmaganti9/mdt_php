@@ -747,7 +747,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <!--<form action="" method="post" role="form" class="contactForm">-->
 			  <?php $attributes = array("class" => "form-horizontal", "name" => "contactform");
             echo form_open("contactform", $attributes);?>
-                
                   <div class="form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" value="<?php echo set_value('name'); ?>"/>
                     <div class="validation"></div>

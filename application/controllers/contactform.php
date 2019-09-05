@@ -22,7 +22,7 @@ class contactform extends CI_Controller
             //validation fails
             //$this->load->view('home');
 			//redirect('#contact');
-			$this->session->set_flashdata('error', validation_errors());
+			$this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">'.validation_errors().'</div>');
 			redirect(base_url().'#contact');
         }
         else
@@ -41,7 +41,7 @@ class contactform extends CI_Controller
             $config['smtp_host'] = 'ssl://smtp.gmail.com';
             $config['smtp_port'] = '465';
             $config['smtp_user'] = 'pavanmaganti9@gmail.com';
-            $config['smtp_pass'] = 'xxxxxxxxx';
+            $config['smtp_pass'] = 'xxxxxxx';
             $config['mailtype'] = 'html';
             $config['charset'] = 'iso-8859-1';
             $config['wordwrap'] = TRUE;
@@ -59,11 +59,13 @@ class contactform extends CI_Controller
                 // mail sent
                 $this->session->set_flashdata('msg','<div class="alert alert-success text-center">Your mail has been sent successfully!</div>');
                 redirect('contactform');
+				//redirect(base_url().'#contact');
             }
             else
             {
                 //error
                 $this->session->set_flashdata('msg','<div class="alert alert-danger text-center">There is error in sending mail! Please try again later</div>');
+				//redirect(base_url().'#contact');
                 redirect('contactform');
             }
         }
