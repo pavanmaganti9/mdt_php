@@ -30,8 +30,8 @@ class contactform extends CI_Controller
             //get the form data
             $name = $this->input->post('name');
             $from_email = $this->input->post('email');
-            $subject = $this->input->post('subject');
-            $message = $this->input->post('message');
+            $subject = "Manidweepam Contactform : ".$this->input->post('subject');
+            $message = "<b>Name :</b> ".$this->input->post('name')."<br> <b>Email :</b> ".$from_email."<br> <b>Message :</b> ".$this->input->post('message');
 
             //set to_email id to which you want to receive mails
             $to_email = 'pavanmaganti9@gmail.com';
@@ -40,8 +40,8 @@ class contactform extends CI_Controller
             $config['protocol'] = 'smtp';
             $config['smtp_host'] = 'ssl://smtp.gmail.com';
             $config['smtp_port'] = '465';
-            $config['smtp_user'] = 'pavanmaganti9@gmail.com';
-            $config['smtp_pass'] = 'xxxxxxx';
+            $config['smtp_user'] = 'pavanmaganti87@gmail.com';
+            $config['smtp_pass'] = 'Pavan@14357';
             $config['mailtype'] = 'html';
             $config['charset'] = 'iso-8859-1';
             $config['wordwrap'] = TRUE;
@@ -50,7 +50,7 @@ class contactform extends CI_Controller
             $this->email->initialize($config);                        
 
             //send mail
-            $this->email->from($from_email, $name);
+            $this->email->from($from_email, 'Manidweepam');
             $this->email->to($to_email);
             $this->email->subject($subject);
             $this->email->message($message);

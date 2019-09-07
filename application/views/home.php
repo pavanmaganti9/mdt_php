@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Manidweepam Technologies</title>
+  <title>ManiDweepam | The Power of wise minds</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -17,9 +17,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <!--<link href="<?php //echo base_url(); ?>application/public/css/style.css" rel="stylesheet" type="text/css"  />
-<script type="text/javascript" src="<?php //echo base_url(); ?>application/public/js/javascript.js"></script>-->
-
   <link href="<?php echo base_url(); ?>assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
@@ -32,12 +29,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!-- Main Stylesheet File -->
   <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: NewBiz
-    Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
 <body>
@@ -51,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
-        <a href="#intro" class="scrollto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <a href="#intro" class="scrollto"><h2>ManiDweepam</h2><!--<img src="assets/img/logo.png" alt="" class="img-fluid">--></a>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
@@ -96,9 +87,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
 
       <div class="intro-info">
-        <h2>We provide<br><span>solutions</span><br>for your business!</h2>
+        <h2>Providing Professional <span>Services</span></h2><h3 class="intro_h3">Let us help you achieve your goals!</h3>
         <div>
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <a href="#contact" class="btn-get-started scrollto">Get Started</a>
           <a href="#services" class="btn-services scrollto">Our Services</a>
         </div>
       </div>
@@ -116,32 +107,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <header class="section-header">
           <h3>About Us</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h4 align="center">Comprehensive Business Services</h4>
         </header>
 
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              We can add value to any business. Feel free to reach out with questions about topics like:
             </p>
 
             <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <div class="icon"><i class="fa ion-stats-bars"></i></div>
+              <h4 class="title"><a href="">Audit & taxation services</a></h4>
+              <p class="description"></p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4 class="title"><a href="">Due diligence</a></h4>
+              <p class="description"></p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <div class="icon"><i class="fa ion-ios-people-outline"></i></div>
+              <h4 class="title"><a href="">Legal services</a></h4>
+              <p class="description"></p>
+            </div>
+			
+			<div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa ion-arrow-expand"></i></div>
+              <h4 class="title"><a href="">Intellectual property laws</a></h4>
+              <p class="description"></p>
             </div>
 
           </div>
@@ -156,12 +153,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img src="assets/img/about-extra-1.svg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-            <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+            <h4>Perspective & Experience</h4>
             <p>
-              Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+              Rely on us to help exceed your customer's expectations. If you need help with any kind of business support, look no further. Ask us about how we can help with:
             </p>
             <p>
-              Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
+				<ul><li>Business management</li> 
+				<li>Web development</li>
+				<li>IT solutions (operations & management)</li></ul>
             </p>
           </div>
         </div>
@@ -172,15 +171,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
 
           <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-            <h4>Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.</h4>
+            <h4>Adding Value</h4>
             <p>
-             Delectus alias ut incidunt delectus nam placeat in consequatur. Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio. Cumque fugit earum est quam officiis numquam. Ducimus corporis autem at blanditiis beatae incidunt sunt. 
-            </p>
-            <p>
-              Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas mollitia beatae. Qui esse molestias. Laudantium libero nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
-            </p>
-            <p>
-              Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore sint quia modi. Numquam est aut fuga mollitia exercitationem nam accusantium provident quia.
+             Most successful businesses will tell you they could not have accomplished their goals without help. Our core principles and strong mission shape our efforts. So find out what make our proven approach to your business management successful. Call us today.
             </p>
           </div>
           
@@ -197,7 +190,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <header class="section-header">
           <h3>Services</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+          <p>Services that we provide</p>
         </header>
 
         <div class="row">
@@ -205,14 +198,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 class="title"><a href="">Corporate Training's</a></h4>
+              <p class="description">We provide software services & product developments with high quality.</p><br>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-bookmarks-outline" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <h4 class="title"><a href="">Focused efforts</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
           </div>
@@ -220,19 +213,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <h4 class="title"><a href="">Consulting Services</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <h4 class="title"><a href="">Online Training's</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+          <!--<div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
               <h4 class="title"><a href="">Nemo Enim</a></h4>
@@ -245,7 +238,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
-          </div>
+          </div>-->
 
         </div>
 
@@ -720,7 +713,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
           <div class="col-lg-6">
             <div class="map mb-4 mb-lg-0">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.592941378559!2d78.31432511491485!3d17.526934403378487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8d69dc8e12b7%3A0xe0ff6ad5edef44cb!2sAxis%20Papa%20Homes!5e0!3m2!1sen!2sin!4v1567837654695!5m2!1sen!2sin" frameborder="0" style="border:0;  width: 100%; height: 312px;" allowfullscreen=""></iframe>
             </div>
           </div>
 
@@ -728,7 +721,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
               <div class="col-md-5 info">
                 <i class="ion-ios-location-outline"></i>
-                <p>A108 Adam Street, NY 535022</p>
+                <p>Plot no 64, Axis Papa homes, Ameenpur, Lingampally
+Hyderabad, TS 502032</p>
               </div>
               <div class="col-md-4 info">
                 <i class="ion-ios-email-outline"></i>
@@ -736,7 +730,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="col-md-3 info">
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+1 5589 55488 55</p>
+                <p>078930 88829</p>
               </div>
             </div>
 
@@ -791,15 +785,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row">
 
           <div class="col-lg-4 col-md-6 footer-info">
-            <h3>Manidweepam</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <h3>ManiDweepam</h3>
+			<h5>Help us help you!</h5>
+            <p>Let us know the details on your project, or whatever it is you're hoping to accomplish. We'll let you know if it's something we can help with. We look forward to hearing from you!</p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><a href="#intro">Home</a></li>
-              <li><a href="#intro">About us</a></li>
+              <li><a href="#about">About us</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#">Terms of service</a></li>
               <li><a href="#">Privacy policy</a></li>
@@ -808,11 +803,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
+            <p>Plot no 64, Axis Papa homes<br>
+			Ameenpur, Lingampally<br>
+			Hyderabad, TS 502032<br>
+              <strong>Phone:</strong> 078930 88829<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
 
@@ -840,16 +834,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <?php echo date("Y"); ?> <strong>Manidweepam</strong>. All Rights Reserved
+        &copy; Copyright <?php echo date("Y"); ?> <strong>ManiDweepam</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
-        -->
-        Designed by <a href="">Pavan Maganti</a>
+        <!--Designed by <a href="">Pavan Maganti</a>-->
       </div>
     </div>
   </footer><!-- #footer -->
