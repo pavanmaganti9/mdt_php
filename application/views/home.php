@@ -119,25 +119,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa ion-stats-bars"></i></div>
-              <h4 class="title"><a href="">Audit & taxation services</a></h4>
+              <h4 class="title">Audit & taxation services</h4>
               <p class="description"></p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Due diligence</a></h4>
+              <h4 class="title">Due diligence</h4>
               <p class="description"></p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa ion-ios-people-outline"></i></div>
-              <h4 class="title"><a href="">Legal services</a></h4>
+              <h4 class="title">Legal services</h4>
               <p class="description"></p>
             </div>
 			
 			<div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa ion-arrow-expand"></i></div>
-              <h4 class="title"><a href="">Intellectual property laws</a></h4>
+              <h4 class="title">Intellectual property laws</h4>
               <p class="description"></p>
             </div>
 
@@ -721,8 +721,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
               <div class="col-md-5 info">
                 <i class="ion-ios-location-outline"></i>
-                <p>Plot no 64, Axis Papa homes, Ameenpur, Lingampally
-Hyderabad, TS 502032</p>
+                <p>Plot no 64, Axis Papa homes, Ameenpur, Lingampally,
+					Hyderabad, TS - 502032</p>
               </div>
               <div class="col-md-4 info">
                 <i class="ion-ios-email-outline"></i>
@@ -735,8 +735,8 @@ Hyderabad, TS 502032</p>
             </div>
 
             <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
+              <!--<div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>-->
 			  <?php echo $this->session->flashdata('msg'); ?>
               <!--<form action="" method="post" role="form" class="contactForm">-->
 			  <?php $attributes = array("class" => "form-horizontal", "name" => "contactform");
@@ -803,9 +803,9 @@ Hyderabad, TS 502032</p>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
-            <p>Plot no 64, Axis Papa homes<br>
-			Ameenpur, Lingampally<br>
-			Hyderabad, TS 502032<br>
+            <p>Plot no 64, Axis Papa homes,<br>
+			Ameenpur, Lingampally,<br>
+			Hyderabad, TS - 502032<br>
               <strong>Phone:</strong> 078930 88829<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
